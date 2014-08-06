@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<!--Change The Parallel attribute for parallel Execution-->
+<suite name="Suite" verbose="3"  parallel="tests" thread-count="3">
+
+       <test name="FirefoxTest">
+              <parameter name="browser" value="firefox" />
+              <classes>
+                     <class name="multibrowser.MultiBrowserTest" />
+              </classes>
+       </test>
+       <test name="ChromeTest">
+              <parameter name="browser" value="chrome" />
+              <classes>
+                     <class name="multibrowser.MultiBrowserTest" />
+              </classes>
+       </test>
+       <test name="IETest">
+              <parameter name="browser" value="ie" />
+              <classes>
+                     <class name="multibrowser.MultiBrowserTest" />
+              </classes>
+       </test>
+
+</suite>
+

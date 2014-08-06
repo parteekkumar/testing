@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="gmail_multiBrowser(failed)">
+    <classes>
+      <class name="multibrowser.gmailMultiBrowser">
+        <methods>
+          <include name="gmailMulti" invocation-numbers="2 0"/>
+        </methods>
+      </class> <!-- multibrowser.gmailMultiBrowser -->
+    </classes>
+  </test> <!-- gmail_multiBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

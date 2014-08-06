@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="IETest(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserTest">
+        <methods>
+          <include name="googleLaunch"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
