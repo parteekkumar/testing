@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suitet" duration-ms="36370" started-at="2014-08-13T14:10:16Z" finished-at="2014-08-13T14:10:52Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="36370" started-at="2014-08-13T14:10:16Z" finished-at="2014-08-13T14:10:52Z">
+      <class name="multibrowser.MultiBrowserTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="20413" started-at="2014-08-13T14:10:16Z" finished-at="2014-08-13T14:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="googleLaunch()" name="googleLaunch" duration-ms="15317" started-at="2014-08-13T14:10:36Z" finished-at="2014-08-13T14:10:51Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="590" started-at="2014-08-13T14:10:51Z" finished-at="2014-08-13T14:10:52Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

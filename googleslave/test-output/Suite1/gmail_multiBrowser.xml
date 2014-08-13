@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PF001TBG-THINK" name="multibrowser.gmailMultiBrowser" tests="3" failures="0" timestamp="12 Aug 2014 18:19:04 GMT" time="30.282" errors="0">
+  <testcase name="gmailMulti" time="15.017" classname="multibrowser.gmailMultiBrowser"/>
+  <testcase name="gmailMulti" time="22.536" classname="multibrowser.gmailMultiBrowser"/>
+  <testcase name="gmailMulti" time="29.29" classname="multibrowser.gmailMultiBrowser"/>
+</testsuite>

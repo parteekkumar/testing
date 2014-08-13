@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-MultiXMl]">
+  <test name="MultiXMl(failed)">
+    <classes>
+      <class name="multibrowser.MultipleXmls">
+        <methods>
+          <include name="multiXml"/>
+        </methods>
+      </class> <!-- multibrowser.MultipleXmls -->
+    </classes>
+  </test> <!-- MultiXMl(failed) -->
+</suite> <!-- Failed suite [Suite-MultiXMl] -->

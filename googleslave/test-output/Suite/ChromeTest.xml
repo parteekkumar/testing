@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="PF001TBG-THINK" name="multibrowser.MultiBrowserTest" tests="1" failures="0" timestamp="12 Aug 2014 17:53:19 GMT" time="29.228" errors="0">
+  <testcase name="googleLaunch" time="18.44" classname="multibrowser.MultiBrowserTest"/>
+</testsuite>
