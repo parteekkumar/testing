@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>googleTest</groupId>
-  <artifactId>googledemo</artifactId>
+  <artifactId>googleslave</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -47,7 +47,7 @@
 				<version>2.16</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${basedir}\testng.xml</suiteXmlFile>
+						<suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <systemPropertyVariables> <configFileName>${testng.configFileName}</configFileName> 
 						</systemPropertyVariables> <groups> ${testng.groups} </groups> -->
