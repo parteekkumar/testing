@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<!--Change The Parallel attribute for parallel Execution-->
+<suite name="Suite"  >
+
+       <test name="gmail_multiBrowser">          
+              <classes>
+                     <class name="multibrowser.gmailMultiBrowser" />
+              </classes>
+       </test>
+ </suite>
+
