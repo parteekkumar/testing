@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suitet]">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="multibrowser.MultiBrowserTest">
+        <methods>
+          <include name="assertion3"/>
+          <include name="assertion"/>
+          <include name="beforeTest"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- multibrowser.MultiBrowserTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suitet] -->

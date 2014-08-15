@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="multibrowser.MultipleXmls">
+      <class name="multibrowser.MultiBrowserTest">
         <methods>
-          <include name="multiXml"/>
+          <include name="aftertest"/>
+          <include name="assertion2"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- multibrowser.MultipleXmls -->
+      </class> <!-- multibrowser.MultiBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
