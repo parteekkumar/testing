@@ -48,8 +48,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>		
-						<suiteXmlFile>${basedir}/test-output/testng-failed.xml</suiteXmlFile>					
-					</suiteXmlFiles>
+						</suiteXmlFiles>
 					<!-- <systemPropertyVariables> <configFileName>${testng.configFileName}</configFileName> 
 						</systemPropertyVariables> <groups> ${testng.groups} </groups> -->
 
