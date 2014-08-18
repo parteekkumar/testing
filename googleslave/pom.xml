@@ -47,7 +47,8 @@
 				<version>2.16</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${basedir}/testng-Suite.xml</suiteXmlFile>						
+						<suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>		
+						<suiteXmlFile>${basedir}/test-output/testng-failed.xml</suiteXmlFile>					
 					</suiteXmlFiles>
 					<!-- <systemPropertyVariables> <configFileName>${testng.configFileName}</configFileName> 
 						</systemPropertyVariables> <groups> ${testng.groups} </groups> -->
