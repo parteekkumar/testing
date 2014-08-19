@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="8" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28531" started-at="2014-08-19T00:01:06Z" finished-at="2014-08-19T00:01:35Z">
+  <suite name="Suite" duration-ms="22031" started-at="2014-08-19T02:40:00Z" finished-at="2014-08-19T02:40:22Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="28531" started-at="2014-08-19T00:01:06Z" finished-at="2014-08-19T00:01:35Z">
+    <test name="FirefoxTest" duration-ms="22031" started-at="2014-08-19T02:40:00Z" finished-at="2014-08-19T02:40:22Z">
       <class name="multibrowser.MultiBrowserTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="beforeTest" is-config="true" duration-ms="18278" started-at="2014-08-18T17:01:06Z" finished-at="2014-08-18T17:01:25Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="beforeTest" is-config="true" duration-ms="12395" started-at="2014-08-18T19:40:00Z" finished-at="2014-08-18T19:40:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="googleLaunch" duration-ms="6179" started-at="2014-08-18T17:01:25Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="googleLaunch" duration-ms="6180" started-at="2014-08-18T19:40:12Z" finished-at="2014-08-18T19:40:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunch -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="9" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="17" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail2]]>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion2 -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="1" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail2]]>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion2 -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="2" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="1" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail2]]>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion2 -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion2" duration-ms="1" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail2]]>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion2 -->
-        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail3]]>
@@ -225,7 +225,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion3 -->
-        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail3]]>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion3 -->
-        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="0" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail3]]>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion3 -->
-        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="1" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:31Z">
+        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="assertion3" duration-ms="0" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:18Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail3]]>
@@ -351,7 +351,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion3 -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="aftertest" is-config="true" duration-ms="3957" started-at="2014-08-18T17:01:31Z" finished-at="2014-08-18T17:01:35Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:multibrowser.MultiBrowserTest@6ea12c19]" name="aftertest" is-config="true" duration-ms="3357" started-at="2014-08-18T19:40:18Z" finished-at="2014-08-18T19:40:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->

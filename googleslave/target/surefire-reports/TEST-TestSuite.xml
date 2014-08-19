@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="6.214" tests="9" errors="0" skipped="0" failures="8">
+<testsuite name="TestSuite" time="6.211" tests="9" errors="0" skipped="0" failures="8">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\PF001TBG\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7900424831121341218.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\PF001TBG\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf80002696311579315.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;C:\Python34;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\bin;C:\Work\Downloads\apache-ant-1.9.4\bin;C:\Work\Downloads\maven\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;%CLASSPATH%;C:\Work\TestNgJars\testng-6.8.jar;C:\AndroidSdk\build-tools\19.0.1;C:\AndroidSdk\platform-tools;C:\AndroidSdk\tools;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,8 +60,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="googleLaunch" classname="multibrowser.MultiBrowserTest" time="6.181"/>
-  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.022">
+  <testcase name="googleLaunch" classname="multibrowser.MultiBrowserTest" time="6.185"/>
+  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.017">
     <failure message="Assert.fail2" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
@@ -69,12 +69,12 @@
     <system-out><![CDATA[In failed test2
 ]]></system-out>
   </testcase>
-  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.002">
+  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.001">
     <failure message="Assert.fail2" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
 </failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,251  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 1 of 3 times.
+    <system-out><![CDATA[2014-08-18 19:40:18,899  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 1 of 3 times.
  In failed test2
 ]]></system-out>
   </testcase>
@@ -83,18 +83,18 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
 </failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,268  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 2 of 3 times.
+    <system-out><![CDATA[2014-08-18 19:40:18,908  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 2 of 3 times.
  In failed test2
 ]]></system-out>
   </testcase>
-  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.007">
+  <testcase name="assertion2" classname="multibrowser.MultiBrowserTest" time="0.002">
     <failure message="Assert.fail2" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
 </failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,271  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 3 of 3 times.
+    <system-out><![CDATA[2014-08-18 19:40:18,910  INFO [main] RetryAnalyzer:24 - Retrying assertion2 with status 2 for the 3 of 3 times.
  In failed test2
-2014-08-18 17:01:31,274 ERROR [main] RetryTestListener:43 - Number of retries expired.
+2014-08-18 19:40:18,912 ERROR [main] RetryTestListener:43 - Number of retries expired.
  ]]></system-out>
   </testcase>
   <testcase name="assertion3" classname="multibrowser.MultiBrowserTest" time="0">
@@ -105,21 +105,12 @@
     <system-out><![CDATA[In failed test3
 ]]></system-out>
   </testcase>
-  <testcase name="assertion3" classname="multibrowser.MultiBrowserTest" time="0">
+  <testcase name="assertion3" classname="multibrowser.MultiBrowserTest" time="0.002">
     <failure message="Assert.fail3" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail3
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
 </failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,280  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 1 of 3 times.
- In failed test3
-]]></system-out>
-  </testcase>
-  <testcase name="assertion3" classname="multibrowser.MultiBrowserTest" time="0.001">
-    <failure message="Assert.fail3" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail3
-	at org.testng.Assert.fail(Assert.java:94)
-	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
-</failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,284  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 2 of 3 times.
+    <system-out><![CDATA[2014-08-18 19:40:18,915  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 1 of 3 times.
  In failed test3
 ]]></system-out>
   </testcase>
@@ -128,9 +119,18 @@
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
 </failure>
-    <system-out><![CDATA[2014-08-18 17:01:31,287  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 3 of 3 times.
+    <system-out><![CDATA[2014-08-18 19:40:18,917  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 2 of 3 times.
  In failed test3
-2014-08-18 17:01:31,289 ERROR [main] RetryTestListener:43 - Number of retries expired.
+]]></system-out>
+  </testcase>
+  <testcase name="assertion3" classname="multibrowser.MultiBrowserTest" time="0.003">
+    <failure message="Assert.fail3" type="java.lang.AssertionError">java.lang.AssertionError: Assert.fail3
+	at org.testng.Assert.fail(Assert.java:94)
+	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
+</failure>
+    <system-out><![CDATA[2014-08-18 19:40:18,919  INFO [main] RetryAnalyzer:24 - Retrying assertion3 with status 2 for the 3 of 3 times.
+ In failed test3
+2014-08-18 19:40:18,921 ERROR [main] RetryTestListener:43 - Number of retries expired.
  ]]></system-out>
   </testcase>
 </testsuite>

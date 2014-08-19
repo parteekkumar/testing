@@ -1,13 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 32.24 sec <<< FAILURE! - in TestSuite
-assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.022 sec  <<< FAILURE!
-java.lang.AssertionError: Assert.fail2
-	at org.testng.Assert.fail(Assert.java:94)
-	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
-
-assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 24.408 sec <<< FAILURE! - in TestSuite
+assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.017 sec  <<< FAILURE!
 java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
@@ -17,7 +12,12 @@ java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
 
-assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: Assert.fail2
+	at org.testng.Assert.fail(Assert.java:94)
+	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
+
+assertion2(multibrowser.MultiBrowserTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: Assert.fail2
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:60)
@@ -27,17 +27,17 @@ java.lang.AssertionError: Assert.fail3
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
 
-assertion3(multibrowser.MultiBrowserTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError: Assert.fail3
-	at org.testng.Assert.fail(Assert.java:94)
-	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
-
-assertion3(multibrowser.MultiBrowserTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+assertion3(multibrowser.MultiBrowserTest)  Time elapsed: 0.002 sec  <<< FAILURE!
 java.lang.AssertionError: Assert.fail3
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
 
 assertion3(multibrowser.MultiBrowserTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Assert.fail3
+	at org.testng.Assert.fail(Assert.java:94)
+	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
+
+assertion3(multibrowser.MultiBrowserTest)  Time elapsed: 0.003 sec  <<< FAILURE!
 java.lang.AssertionError: Assert.fail3
 	at org.testng.Assert.fail(Assert.java:94)
 	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:67)
