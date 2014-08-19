@@ -12,9 +12,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.util.RetryAnalyzerCount;
 
+import java.util.concurrent.TimeUnit;
+
+
+
+@Listeners({multibrowser.RetryTestListener.class}) 
 
 public class MultiBrowserTest 
     
@@ -31,7 +38,7 @@ public class MultiBrowserTest
              System.out.println("In Beforetest");
       }  
       
-    @Test(priority = 1)    
+    @Test(priority = 1, retryAnalyzer=RetryAnalyzer.class)    
     public void googleLaunch() throws InterruptedException{
     	//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
     	
@@ -47,14 +54,14 @@ public class MultiBrowserTest
     	
     }
    
-    @Test(priority = 2)  
+    @Test(priority = 2, retryAnalyzer=RetryAnalyzer.class)  
     public void assertion2(){
     	System.out.println("In failed test2");
     	Assert.fail("Assert.fail2");
     	
     }
     
-    @Test(priority = 3)  
+    @Test(priority = 3, retryAnalyzer=RetryAnalyzer.class)  
     public void assertion3(){
     	System.out.println("In failed test3");
     	Assert.fail("Assert.fail3");

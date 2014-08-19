@@ -1,1 +1,3 @@
 multibrowser\MultiBrowserTest.class
+multibrowser\RetryAnalyzer.class
+multibrowser\RetryTestListener.class

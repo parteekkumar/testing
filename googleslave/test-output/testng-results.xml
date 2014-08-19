@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17316" started-at="2014-08-15T21:41:04Z" finished-at="2014-08-15T21:41:21Z">
+  <suite name="Default suite" duration-ms="19403" started-at="2014-08-18T22:01:27Z" finished-at="2014-08-18T22:01:46Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="17316" started-at="2014-08-15T21:41:04Z" finished-at="2014-08-15T21:41:21Z">
+    <test name="Default test" duration-ms="19403" started-at="2014-08-18T22:01:27Z" finished-at="2014-08-18T22:01:46Z">
       <class name="multibrowser.MultiBrowserTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multibrowser.MultiBrowserTest@1fbc7afb]" name="beforeTest" is-config="true" duration-ms="11607" started-at="2014-08-15T14:41:04Z" finished-at="2014-08-15T14:41:16Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multibrowser.MultiBrowserTest@3c5a99da]" name="beforeTest" is-config="true" duration-ms="13220" started-at="2014-08-18T15:01:27Z" finished-at="2014-08-18T15:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:multibrowser.MultiBrowserTest@1fbc7afb]" name="googleLaunch" duration-ms="5143" started-at="2014-08-15T14:41:16Z" finished-at="2014-08-15T14:41:21Z">
+        <test-method status="PASS" signature="googleLaunch()[pri:0, instance:multibrowser.MultiBrowserTest@3c5a99da]" name="googleLaunch" duration-ms="5721" started-at="2014-08-18T15:01:40Z" finished-at="2014-08-18T15:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunch -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@1fbc7afb]" name="assertion2" duration-ms="12" started-at="2014-08-15T14:41:21Z" finished-at="2014-08-15T14:41:21Z">
+        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@3c5a99da]" name="assertion2" duration-ms="15" started-at="2014-08-18T15:01:46Z" finished-at="2014-08-18T15:01:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Assert.fail2]]>
@@ -43,7 +43,6 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
 	at org.testng.TestNG.run(TestNG.java:1057)
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
@@ -55,35 +54,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertion2 -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:multibrowser.MultiBrowserTest@1fbc7afb]" name="aftertest" is-config="true" duration-ms="503" started-at="2014-08-15T14:41:21Z" finished-at="2014-08-15T14:41:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- multibrowser.MultiBrowserTest -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
-  <suite name="AllSuites" duration-ms="0" started-at="2014-08-15T21:41:32Z" finished-at="2014-08-15T21:41:32Z">
-    <groups>
-    </groups>
-  </suite> <!-- AllSuites -->
-  <suite name="Failed suite [Failed suite [Failed suite [Default suite]]]" duration-ms="9874" started-at="2014-08-15T21:41:21Z" finished-at="2014-08-15T21:41:31Z">
-    <groups>
-    </groups>
-    <test name="Default test(failed)(failed)(failed)" duration-ms="9874" started-at="2014-08-15T21:41:21Z" finished-at="2014-08-15T21:41:31Z">
-      <class name="multibrowser.MultiBrowserTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:multibrowser.MultiBrowserTest@3f3afe78]" name="beforeTest" is-config="true" duration-ms="9394" started-at="2014-08-15T14:41:21Z" finished-at="2014-08-15T14:41:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="assertion2()[pri:0, instance:multibrowser.MultiBrowserTest@3f3afe78]" name="assertion2" duration-ms="3" started-at="2014-08-15T14:41:31Z" finished-at="2014-08-15T14:41:31Z">
+        <test-method status="FAIL" signature="assertion3()[pri:0, instance:multibrowser.MultiBrowserTest@3c5a99da]" name="assertion3" duration-ms="1" started-at="2014-08-18T15:01:46Z" finished-at="2014-08-18T15:01:46Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Assert.fail2]]>
+              <![CDATA[Assert.fail3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Assert.fail2
+              <![CDATA[java.lang.AssertionError: Assert.fail3
 	at org.testng.Assert.fail(Assert.java:94)
-	at multibrowser.MultiBrowserTest.assertion2(MultiBrowserTest.java:53)
+	at multibrowser.MultiBrowserTest.assertion3(MultiBrowserTest.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,7 +82,6 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
 	at org.testng.TestNG.run(TestNG.java:1057)
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
@@ -114,12 +92,12 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertion2 -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:multibrowser.MultiBrowserTest@3f3afe78]" name="aftertest" is-config="true" duration-ms="472" started-at="2014-08-15T14:41:31Z" finished-at="2014-08-15T14:41:31Z">
+        </test-method> <!-- assertion3 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:multibrowser.MultiBrowserTest@3c5a99da]" name="aftertest" is-config="true" duration-ms="385" started-at="2014-08-18T15:01:46Z" finished-at="2014-08-18T15:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
       </class> <!-- multibrowser.MultiBrowserTest -->
-    </test> <!-- Default test(failed)(failed)(failed) -->
-  </suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
